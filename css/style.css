@@ -246,12 +246,12 @@ animation: fill-text 4s linear infinite;
 	gap: 2rem;
 }
 
-.services-container .services-box{
-	padding: 3rem 2.5rem;
-	background: var(--second-bg-color);
-	border: .2rem solid var(--second-bg-color);
-	border-radius: 1rem;
-	transition: .5s;
+.services-container .services-box {
+    padding: 6rem 3rem;
+    background: var(--second-bg-color);
+    border: .2rem solid var(--second-bg-color);
+    border-radius: 1rem;
+    transition: .5s;
 }
 
 .services-container .services-box:hover{
@@ -289,6 +289,7 @@ animation: fill-text 4s linear infinite;
 	font-size: 3rem;
 	color: var(--bg-color);
 	transform: rotate(225deg);
+	transition: .5s;
 }
 
 .services-box .icon a:hover i{
