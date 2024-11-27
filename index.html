@@ -13,9 +13,9 @@
 </head>
 <body>
 <!-- Header Section -->
-  <header>
+  <header class="active">
   	<a href="#" class="logo">Anup.</a>
-
+  	
   	<i class='bx bx-menu' id="menu-icon"></i>
   	<nav>
   		<a href="#" class="active">Home</a>
@@ -26,8 +26,18 @@
   	</nav>
   </header>
 
+  <!-- Bars background -->
+  <div class="bars-box active">
+  	<div class="bar" style="--i:6;"></div>
+  	<div class="bar" style="--i:5;"></div>
+  	<div class="bar" style="--i:4;"></div>
+  	<div class="bar" style="--i:3;"></div>
+  	<div class="bar" style="--i:2;"></div>
+  	<div class="bar" style="--i:1;"></div>
+  </div>
+
 <!-- Home section -->
-<section class="home">
+<section class="home active">
 	<div class="home-detail">
 		<h1>Anup Karki</h1>
 		<h2>I'm a 
@@ -432,30 +442,30 @@
 </section>
 
  <!-- Contact section -->
-<section class="contact active">
+<section class="contact">
 	<div class="contact-container">
 		<div class="contact-box">
 			<h2>Let's Work Together</h2>
 			<p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud.</p>
 			<div class="contact-detail">
+				<i class='bx bxs-phone'></i>
 				<div class="detail">
-					<i class='bx bxs-phone'></i>
 					<p>Phone</p>
 					<p>(+977) 9842256367</p>
 				</div>
 			</div>
 
 			<div class="contact-detail">
+				<i class='bx bxs-envelope'></i>
 				<div class="detail">
-					<i class='bx bxs-envelope'></i>
 					<p>Email</p>
 					<p>info.karki@gmail.com</p>
 				</div>
 			</div>
 
       <div class="contact-detail">
+        <i class='bx bxs-map'></i>
 				<div class="detail">
-					<i class='bx bxs-map'></i>
 					<p>Address</p>
 					<p>Kathmandu, Nepal</p>
 				</div>
@@ -472,6 +482,7 @@
 					<input type="text" name="" placeholder="Subject" required>
 					<textarea name="" id="" placeholder="Your Message" required></textarea>
 				</div>
+				<button type="submit" class="btn">Send Messege</button>
 			</form>
 		</div>
 	</div>
