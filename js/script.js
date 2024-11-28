@@ -125,4 +125,10 @@ arrowLeft.addEventListener('click', () => {
 });
 
 
-
+const typed = new Typed('.multiple-text',{
+    strings: ['Web Developer', 'Web Designer', 'Fullstack Developer', 'UI/UX Designer'],
+    typeSpeed: 70,
+    backSpeed: 70,
+    backDelay: 1000,
+    loop:true,
+  });
